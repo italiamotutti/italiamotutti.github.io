@@ -322,6 +322,14 @@ a:focus {
   background-position: left center;
 }
 
+/* contact section */
+.contact_section_1 {
+  background-image: url(../images/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 14%;
+  background-position: right center;
+}
+
 .contact-form {
   padding: 25px;
   border-radius: 20px;

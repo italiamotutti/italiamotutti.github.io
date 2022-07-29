@@ -1,7 +1,11 @@
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
-
 
     .top_container {
         height: auto;
@@ -39,7 +43,7 @@
     }
 
     .top_container::before {
-        width: 200%;
+        width: 100%;
 
     }
 
@@ -111,10 +115,6 @@
         background-size: 8px;
     }
 
-    .contact_section,
-    .client_section {
-        background-image: none;
-    }
 }
 
 @media (max-width: 480px) {
@@ -162,6 +162,39 @@
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: 90%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    .prefere-contato {
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+
+    .produtos li {
+        padding: 15px;
+    }
+
+    .container {
+        padding-bottom: 30px;
     }
 
 }
